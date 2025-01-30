@@ -1,0 +1,28 @@
+SistemManajemenPerpustakaan/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── auth/
+│   │   │   │   └── route.ts
+│   │   │   └── books/
+│   │   │       └── route.ts
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── books/
+│   │   │   └── page.tsx
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   └── ui/
+│   │       ├── button.tsx
+│   │       ├── input.tsx
+│   │       └── card.tsx
+│   └── lib/
+│       ├── db.ts
+│       └── utils.ts
+├── middleware.ts
+├── .env.local
+└── package.json
+
