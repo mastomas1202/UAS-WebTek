@@ -1,4 +1,10 @@
-import { sql } from '@vercel/postgres';
+import { Pool } from "pg";
 
-export { sql };
+const pool = new Pool({
+  connectionString: process.env.POSTGRES_URL,
+  ssl: {
+    rejectUnauthorized: false, // Perlu untuk Neon
+  },
+});
 
+export default pool;
