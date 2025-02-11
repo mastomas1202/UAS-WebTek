@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Layout from './dashboard/components/Layout'
+import Layout from './dashboard/components/layout'
 import { buku, pengguna } from '../lib/contohData'
 
 export default function Beranda() {
